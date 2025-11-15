@@ -23,6 +23,7 @@
   --stroke-color: #fff;
   --page-gap:25px;
   --button-text-size: 14px;
+  --button-gap: 12px;
 }
 
 @media (min-width: 768px) {

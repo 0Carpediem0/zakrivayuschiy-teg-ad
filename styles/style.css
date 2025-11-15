@@ -137,7 +137,8 @@
 
 .card__icon-button {
   display: flex;
-  gap: 12px;
+  gap: var(--button-gap);
   align-items: center;
-  align-self: end;
+  align-self: end; 
 }
+ 

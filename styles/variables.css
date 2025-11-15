@@ -4,7 +4,7 @@
   --section-width: 100%;
   --accent-font-family: 'PressStart2P', sans-serif;
   --main-font-family: 'Inter', sans-serif;
-  --main-font-family-bold-weight: 700;
+  --main-font-family-bold-weight: 785;
   --main-font-family-regular-weight: 400;
   --header-title-size: clamp(49px, 2.93rem + 1.50vw, 65px);
   --header-description-size: clamp(14px, 0.88rem + 0.85vw, 23px);
@@ -24,6 +24,9 @@
   --page-gap:25px;
   --button-text-size: 14px;
   --button-gap: 12px;
+  --paddint-left-right-save-button: 20px;
+  --padding-up-down-save-button: clamp(17px, 17px + 3.5 * ((100vw - 375px) / 1065), 20.5px);
+
 }
 
 @media (min-width: 768px) {

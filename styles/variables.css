@@ -1,1 +1,32 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --background-image: url(../images/background.png);
+  --background-sectin-color:#fff;
+  --section-width: 100%;
+  --accent-font-family: 'PressStart2P', sans-serif;
+  --main-font-family: 'Inter', sans-serif;
+  --main-font-family-bold-weight: 700;
+  --main-font-family-regular-weight: 400;
+  --header-title-size: clamp(49px, 2.93rem + 1.50vw, 65px);
+  --header-description-size: clamp(14px, 0.88rem + 0.85vw, 23px);
+  --header-text-margin:20px;
+  --header-padding:100px;
+  --content-border-width: 2px;
+  --content-border-color: #000;
+  --content-border-style: solid;
+  --header-content-padding-top-bottom: clamp(120px, calc(120px + 8 * ((100vw - 375px) / 1065)), 128px);
+  --header-content-padding-left-right: clamp(14px, calc(14px + 106.5 * ((100vw - 375px) / 1065)), 120.5px);
+  --header-margin-bottom: 100px;
+  --section-margin: 54px;
+  --section-title-font-size: 18px;
+  --title-margin:10px;
+  --watermark-size: 14px;
+  --stroke-color: #fff;
+  --page-gap:25px;
+  --button-text-size: 14px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --section-width: 700px;
+  }
+}
